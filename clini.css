@@ -1,0 +1,65 @@
+	/* Estilo pagina inteira  */
+
+	 /*Estilo Header/Navbar*/
+				#navStyle{
+					background-color: #308d7b;
+					color: black;
+				}
+				#navStyle a{
+					color: white;
+					text-decoration: none;
+					text-align: right;
+				}
+				#navStyle a:focus, #navStyle a:hover{
+					background-color:white;
+					color: black;
+				}
+				.navbar-default .navbar-toggle .icon-bar{
+					background-color: white;
+				}
+				.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+					background-color: #59cab4;
+				}
+
+	/* Estilo conteúdo */
+
+				#container-1{
+					width: 70%;
+					margin-top: 50px;
+				}
+	/* Estilo Footer*/
+				.footer {
+				    bottom: 0;
+				    width: 100%;
+				    line-height: 60px;
+				    background-color: #308d7b;
+				}
+				#row-footer {
+					width: 100%;
+					display: table;
+				}
+				#row-footer .container-fluid .col {
+					display: table-cell;
+					text-align: center;
+					position: relative;
+					height: 100%;
+					float: none;
+					font-size: normal;
+				}
+				.col-4 .icon {
+					padding-top: 10px;
+					text-align: center;
+					margin-left: auto;
+				    margin-right: auto;
+				}
+				.col-4 .text {
+					text-align: center;
+					margin-left: auto;
+				    margin-right: auto;
+				    position: relative;
+				    color: #fff;
+				    font-size: 20px;
+				    line-height: 1.00em;
+				    padding-top: 10px;
+				    padding-bottom: 10px;
+				}
