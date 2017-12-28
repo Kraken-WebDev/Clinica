@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="toScroll.js"></script>
   	<link rel="stylesheet" type="text/css" href="clini.css">
 </head>
 <body>
@@ -26,10 +27,10 @@
 				</div>
 				<div id="myNavBar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#Who" class="btn toScroll">Quem somos</a></li>
-						<li><a href="#Who2" class="btn toScroll">Integrantes da equipe</a></li>
-						<li><a href="#What" class="btn toScroll">Nossos serviços</a></li>
-						<li><a class="lastItem btn toScroll" href="#Where">Contato</a></li>
+						<li><a href="#Who" class="btn">Quem somos</a></li>
+						<li><a href="#Who2" class="btn">Integrantes da equipe</a></li>
+						<li><a href="#What" class="btn">Nossos serviços</a></li>
+						<li><a href="#Where" class="btn lastItem2">Contato</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,7 +42,7 @@
 		<div id="container-1" class="container">
 			<div class="row">
 				<div id="Who" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h3>Clínica GoodHealth</h3>
+					<h2>Clínica GoodHealth</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, tenetur vitae commodi mollitia quam explicabo illum reiciendis dolores id unde reprehenderit possimus alias qui illo! Aspernatur laboriosam hic error est.</p>
 					<p>Aqui providenciamos diversos serviços, como por exemplo:</p>
 					<p>Estetica</p>
@@ -50,7 +51,7 @@
 					<p>Clique <a href="#" class="toScroll">aqui</a> para mais detalhes sobre os nossos serviços.</p>
 				</div>
 				<div id="Who2" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h3>Clínica GoodHealth</h3>
+					<h2>Clínica GoodHealth</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, consequuntur corrupti nostrum quos architecto ducimus. Molestiae numquam, in, ratione totam aliquid ex labore, ipsam deserunt quaerat unde quia! Reprehenderit, nulla.</p>
 					<p>Aqui providenciamos diversos serviços, como por exemplo:</p>
 					<p>Estetica</p>
@@ -59,7 +60,7 @@
 					<p>Clique <a href="#">aqui</a> para mais detalhes sobre os nossos serviços.</p>
 				</div>
 				<div id="What" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h3>Clínica GoodHealth</h3>
+					<h2>Clínica GoodHealth</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium tempore id et nostrum, ipsa eveniet pariatur cumque eligendi at. Consectetur assumenda dolore doloribus saepe aperiam, a quis, at est veniam.</p>
 					<p>Aqui providenciamos diversos serviços, como por exemplo:</p>
 					<p>Estetica</p>
@@ -67,36 +68,18 @@
 					<p>Cardiologista</p>
 					<p>Clique <a href="#W">aqui</a> para mais detalhes sobre os nossos serviços.</p>
 				</div>
-				<div id="Where" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h3>Clínica GoodHealth</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo accusantium saepe, possimus excepturi cum illum impedit odio. Voluptates, animi, provident! Ipsa repellendus facilis nulla maiores natus at cupiditate id fuga.</p>
-					<p>Aqui providenciamos diversos serviços, como por exemplo:</p>
-					<p>Estetica</p>
-					<p>Dentista</p>
-					<p>Cardiologista</p>
-					<p>Clique <a href="#">aqui</a> para mais detalhes sobre os nossos serviços.</p>
-				</div>
 			</div>
 		</div>
-		<script type="text/javascript">
-			$("a.toScroll").on('click',function(e) {
-			    var url = e.target.href;
-			    var hash = url.substring(url.indexOf("#")+1);
-			    $('html, body').animate({
-			        scrollTop: $('#'+hash).offset().top - 50
-			    }, 500);
-			    return false;
-			});
-		</script>
+		
 	</div>
-	<footer class='footer'>
+	<footer class='footer' id="Where">
 	<div class="row" id="row-footer">
 		<div class='container-fluid'>
 			<div class="col-4 col-md-4">
 				<div class="icon">
 					<img src="img/footer/phone.png" width="50" height="50" alt="">
 				</div>
-				<div class="text"> (43) 2222 - 0000</div>
+				<div class="text"> (00) 0000 - 0000</div>
 			</div>
 			<div class="col-4 col-md-4">
 				<div class="icon">
