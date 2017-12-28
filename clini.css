@@ -20,6 +20,9 @@
 				.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
 					background-color: #59cab4;
 				}
+				#navCont{
+					width: 70%;
+				}
 
 	/* Estilo conteúdo */
 
